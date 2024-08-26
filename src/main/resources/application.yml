@@ -1,0 +1,14 @@
+server: 
+   port: 9089
+
+spring: 
+   application: 
+      name: Car-Application
+   datasource: 
+      url: jdbc:mysql://localhost:3306/car_db
+      username: root
+      password: Tiger2143@+%
+   jpa: 
+      hibernate: 
+          ddl-auto: update
+      show-sql: true
